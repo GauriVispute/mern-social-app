@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <title>emoji</title>  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css"/>
+</head> 
+<body>
+    <style type="text/css">
+        body{
+            overflow-x: hidden;
+            background: #262626;
+            color:white;
+            font-family:sans-serif;
+        }
+    </style>
+</body>
+<textarea name="emoji" id="textarea" cols="15" rows="10"></textarea>
+<script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+<script type="text/javascript">
+$('#textarea').emojioneArea({
+    pickerPosition:'bottom'
+})
+</script>
+</html>
